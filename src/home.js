@@ -13,7 +13,7 @@ function Main() {
     <Provider store={store}>
       <Router>
         <Routes>
-          <Route path="/" element={<App />} />
+          <Route path="/recipeapp" element={<App />} />
           <Route path="/searchpage" element={<SearchPage />} />
           <Route path="/recipelist" element={<RecipeList />} />
           <Route path="/favorites" element={<Favorites />} />
