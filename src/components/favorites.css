@@ -15,7 +15,9 @@
 }
 
 .card-fav {
-    background: #fff;
+    background: rgba(248, 239, 239, 0.1); /* Transparent White */
+    backdrop-filter: blur(5px); /* Frosted Glass Blur */
+    border: 1px solid rgba(255, 255, 255, 0.2); /* Slight Border */
     border-radius: 10px;
     padding: 0.5rem;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);

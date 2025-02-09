@@ -37,9 +37,9 @@ const RecipeDetails = () => {
         <p><strong>Mealtype:</strong> {recipe.recipe.mealType}</p>
         <p><strong>Servings:</strong> {recipe.recipe.yield}</p>
         </div>
-      <p className="detailsingredients"><strong>Mealtype:</strong> {recipe.recipe.healthLabels}</p>
+      <p className="detailsingredients1"><strong>Mealtype:</strong> {recipe.recipe.healthLabels}</p>
       
-      <button className="searchpage-fav" onClick={() => dispatch(addToFavorites(recipe.recipe))}>
+      <button className="searchpage-fav"  onClick={() => dispatch(addToFavorites(recipe.recipe))}>
         Add to Favorites
       </button>
     </section>

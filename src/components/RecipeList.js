@@ -8,7 +8,11 @@ const RecipeList = () => {
   const recipes = useSelector((state) => state.recipes.recipes);
 
   if (!recipes || recipes.length === 0) {
-    return <p>No recipes found.</p>;
+    return (
+      <div className="text-center" >
+<p>No recipes found.</p>;
+      </div>
+    ) 
   }
 
   return (
