@@ -1,0 +1,50 @@
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* Auto column layout */
+  grid-template-rows: repeat(5, auto); /* 5 rows */
+  gap: 20px; /* Spacing between items */
+  padding: 20px;
+}
+
+.card {
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+.card-img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+.searchpage-details{
+  background-color:rgb(6, 84, 107);
+  color: white;
+  border: none;
+  width:120px;
+  padding: 8px 12px;
+  margin: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.searchpage-fav {
+  background-color:rgb(0, 66, 153);
+  color: white;
+  border: none;
+  padding: 8px 4px;
+  margin: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.searchpage-details:hover {
+  background-color:rgb(3, 201, 36);
+}
+.searchpage-fav:hover {
+  background-color:rgb(3, 201, 36);
+}
+
